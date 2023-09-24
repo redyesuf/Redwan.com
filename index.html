@@ -5,145 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Description of your webpage">
-    <link rel="stylesheet" href="style.css">
-    <style>
-      .body {
-        background-color: rgba(60, 225, 195, 0.545);
-      }
-        
-
-      .h1 {
-          margin-left: 120px;
-          font-style: italic;
-          
-      }
-      .h2 {
-          margin-left: 140px;
-          margin-bottom: 40px;
-          font-style: italic;
-
-      }
-      .horizontal-line {
-          width: 50%; 
-          height: 1px; 
-          background-color: #000; 
-          margin: 0 auto;
-          margin-top: 60px;
-      }
-      .sign {
-          margin-left: 540px;
-
-      }
-      
-      .image1,.image2,.image3,.image4,.image5,.image6,.image7,.image8,.image9 {
-        width: 450px;
-        margin-left: 15px;
-        margin-right: 15px;
-        display:inline-block;
-        margin-bottom: 15px;
-        margin-top: 15px;
-      }
-          
-        
-        
-        .home {
-          margin-left: 30px;
-
-        }
-        .home,.contact,.about {
-          margin-bottom: 50px;
-          font-size: 30px;
-          display:inline-block;
-          width: 150px;
-          font-weight: bold;
-
-        }
-        .contact:hover, .about:hover {
-          text-shadow: 10px 10px 9px black;
-          opacity: 0.5;
-          font-weight: bolder;
-          color: #000;
-
-
-        }
-        .ytlogo {
-          display: inline-block;
-          margin-left: 520px;
-          margin-top: 40px;
-          margin-right: 30px;
-        }
-        .fblogo {
-          display: inline-block;
-          margin-right: 30px;
-        }
-        .instalogo {
-          display: inline-block;
-          margin-right: 30px;
-        }
-        .twitterlogo {
-          display: inline-block;
-          margin-right: 30px;
-        }
-        .ytlogo:hover, .fblogo:hover, .instalogo:hover, .twitterlogo:hover {
-          text-shadow: 10px 10px 9px black;
-          opacity: 0.5;
-          font-weight: bolder;
-          color: #000;
-        }
-        
-      
-        
-
-      
-
-      
-    </style>
+    <link rel="stylesheet" href="CSS\style.css">
     
-
-
   </head>
-  <body class="body">
-    <div>
-      <h1 class="h1">Redwan Yesuf Abate</h1>
-      <h2 class="h2">A software developer student</h2>
-    </div>
-    <div>
-      <a href="https://redyesuf.github.io/Redwan.com/"><p class="home"> Home </p></a>
-      <a href="https://redyesuf.github.io/Redwany.com/"><p class="about"> About </p></a> 
-     <a href="mailto:redyesufgr8@gmail.com" target="_blank"><p class="contact"> contact  </p></a> 
+  <body>
+    <header>
+      <section class="header-content">
+        <img src="pictures\image6.jpg" alt="My Logo" class="header-logo">
+        <section class="header-text">
+          <p class="header-name">Redwan Yesuf Abate</p>
+          <p class="header-description">A software developer student</p>
+        </section>
+      </section>
+      <nav>
+        <ul class="header-links">
+          <li><a href="https://redyesuf.github.io/Redwan.com/" class="home">Home</a></li>
+          <li><a href="https://redyesuf.github.io/Redwany.com/" class="about" >About</a></li>
+          <li><a href="mailto:redyesufgr8@gmail.com" target="_blank" class="contact" >Contact</a></li>
+          <li><a href="https://hexlabs.tech/portfolio/" class="portfolio" >Portfolio</a></li> 
+          <li><a href="https://hexlabs.tech/blog/" class="blog" >Blog</a></li> 
+          <li><a href="https://hexlabs.tech/project-bid/" class="project-bid" >Project Bid</a></li> 
+        </ul>
 
-    </div>
-    
-    <div class="image">
-      <img class="image1" src="image1.jpg">
-      <img class="image2" src="image2.jpg">
-      <img class="image3" src="image3.jpg">
-      <img class="image4" src="image4.jpg">
-      <img class="image5" src="image5.jpg">
-      <img class="image6" src="image6.jpg">
-      <img class="image7" src="image7.jpg">
-      <img class="image8" src="image8.jpg">
-      <img class="image9" src="image9.jpg">
+      </nav>
       
-
-    </div>
-    <div>
-      <div class="ytlogo">
-        <a href="https://www.youtube.com/@supersimpledev" target="_blank"><ion-icon name="logo-youtube" size="large"></ion-icon></a>
+    </header>
+    <main>
+      <div class="image">
+        <img class="image1" src="Pictures\image1.jpg">
+        <img class="image2" src="Pictures\image2.jpg">
+        <img class="image3" src="pictures\image3.jpg">
+        <img class="image4" src="pictures\image4.jpg">
+        <img class="image5" src="pictures\image5.jpg">
+        <img class="image6" src="pictures\image6.jpg">
+        <img class="image7" src="pictures\image7.jpg">        
+        <img class="image8" src="pictures\image8.jpg">
+        <img class="image9" src="pictures\image9.jpg">
+        
+  
       </div>
-      <div class="fblogo">
-        <a href="https://www.facebook.com/supersimpleofficial/" target="_blank"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+      <div>
+        <div class="ytlogo">
+          <a href="https://www.youtube.com/@supersimpledev" target="_blank"><ion-icon name="logo-youtube" size="large" color="blue" ></ion-icon></a>
+        </div>
+        <div class="fblogo">
+          <a href="https://www.facebook.com/supersimpleofficial/" target="_blank"><ion-icon name="logo-facebook" size="large"></ion-icon></a>
+        </div>
+        <div class="instalogo">
+         <a href="https://www.instagram.com/freecodecamp/" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a> 
+        </div>
+        <div class="twitterlogo">
+          <a href="https://twitter.com/freecodecamp" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
+        </div>
+  
       </div>
-      <div class="instalogo">
-       <a href="https://www.instagram.com/freecodecamp/" target="_blank"><ion-icon name="logo-instagram" size="large"></ion-icon></a> 
-      </div>
-      <div class="twitterlogo">
-        <a href="https://twitter.com/freecodecamp" target="_blank"><ion-icon name="logo-twitter" size="large"></ion-icon></a>
-      </div>
-
-    </div>
     
+    </main>
 
+
+    
+    
+    
+    
+    
+    <footer class="footer">
+      <section class="horizontal-line"></section>
+      <p>&#169; 2023 Profile pagina - All rights reserved - Developed by Redwan Yesuf</p>
+    </footer>
    
 
 
@@ -159,23 +87,7 @@
 
 
 
-    <div>
-      <div class="horizontal-line"></div>
-
-    </div>
     
-
-
-
-
-
-
-
-
-
-    <div>
-      <p class="sign">&#169; 2023 Profile pagina -All rights reserved -Developed by Redwan Yesuf</p>
-    </div>
 
 
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
